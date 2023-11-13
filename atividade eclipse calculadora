@@ -1,0 +1,13 @@
+package calculadoraa;
+
+   public class Main {
+      static int soma (int num1, int num2) {
+    		 int sm = num1 + num2;
+    		 return sm;
+    	 }
+		public static void main(String [] args) {
+    	 System.out.print ("Digite alguma coisa: ");
+    	 int resultado = soma(5,2);
+    	 System.out.println("O resultado é: " + resultado);
+     }
+}
