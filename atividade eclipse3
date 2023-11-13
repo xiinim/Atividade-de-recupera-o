@@ -1,0 +1,25 @@
+package resolucao;
+
+import java.util.Scanner;
+
+public class Main {
+public static void main(String[] args) {
+	Scanner dig = new Scanner(System.in);
+	  String nomeUser;
+	  int num, contador = 1;
+
+		System.out.println("Digite seu nome: ");
+		nomeUser = dig.nextLine();
+		System.out.println("Digite um numero: ");
+		num = dig.nextInt();
+		
+		while(contador <= num) {
+			System.out.println(contador + "Meu nome é " + nomeUser);
+			contador++;
+		}
+		
+}
+ 
+  
+}
+	
