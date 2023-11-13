@@ -1,0 +1,16 @@
+*{
+    font-family: arial;
+    padding: 0px;
+    margin: auto;
+}
+
+.sobre{
+    margin: 0px;
+    width: auto;
+}
+
+footer{
+    background-color: rgb(103, 103, 103);
+    padding: 20px;
+    text-align: center;
+}

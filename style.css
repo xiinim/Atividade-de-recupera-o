@@ -1,0 +1,43 @@
+* {
+    font-family: arial;
+    padding: 0px;
+    margin: auto;
+}
+
+header {
+    background-color: rgb(103, 103, 103);
+    padding: 20px;
+}
+
+.botao {
+    background-color: #A9A9A9;
+    display: flex;
+    float: right;
+    text-align: right;
+    font-size: 200px;
+}
+
+.green {
+    background-color: #C0C0C0;
+    margin: 200px;
+    padding: 20px;
+
+}
+
+.blue {
+    background-color: #C0C0C0;
+    margin: 200px;
+    padding: 20px;
+}
+
+.red {
+    background-color: #C0C0C0;
+    margin: 200px;
+    padding: 20px;
+}
+
+footer{
+    background-color: rgb(103, 103, 103);
+    padding: 20px;
+    text-align: center;
+}
