@@ -1,0 +1,26 @@
+package Teste1;
+
+import java.util.Scanner;
+
+public class operadores {
+	public static void main (String[] args) {
+	Scanner valor = new Scanner(System.in);
+	int nota;
+	
+	
+	System.out.print("Digite a sua nota: ");
+	nota = valor.nextInt();
+	
+	if(nota>=7) {
+		System.out.println("Você foi aprovado");
+	}else if (nota>=7){
+		System.out.println("Você está de recuperação =(");
+	}else {
+		System.out.println("Você foi reprovado =((((((((((((((((");
+	}
+	
+
+	}
+	
+
+}
